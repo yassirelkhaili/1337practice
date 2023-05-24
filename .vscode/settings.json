@@ -1,5 +1,8 @@
 {
   "files.associations": {
-    "ex06.C": "cpp"
+    "ex06.C": "cpp",
+    "array": "c",
+    "initializer_list": "c",
+    "utility": "c"
   }
 }
