@@ -11,7 +11,6 @@ char *ft_strcpy(char *dest, char *src) {
     for(int i = 0; i < size; i++) {
         dest[i] = src[i]; 
     }
-        write(STDOUT_FILENO, dest, size); 
         return dest; 
 }
 
@@ -23,7 +22,8 @@ int main(int argc, char const *argv[])
         size++; 
     }
     char dest[size]; 
-    ft_strcpy(dest, src); 
+    char* result = ft_strcpy(dest, src);
+    write(STDOUT_FILENO, result, size); 
     return 0;
 }
 
