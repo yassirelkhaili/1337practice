@@ -4,6 +4,7 @@
     "array": "c",
     "initializer_list": "c",
     "utility": "c",
-    "ex04.C": "cpp"
+    "ex04.C": "cpp",
+    "ex05.C": "cpp"
   }
 }
