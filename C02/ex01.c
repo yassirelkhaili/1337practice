@@ -21,8 +21,10 @@ int main(int argc, char const *argv[])
 {
     char src[] = "Hello World!"; 
     int size = 0; 
-    for(int i = 0; src[i] != '\0'; i++) {
+    int i = 0; 
+    while(src[i] != '\0') {
         size++; 
+        i++; 
     }
     char dest[size];
     int n = 7; 
