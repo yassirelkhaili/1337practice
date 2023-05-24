@@ -4,11 +4,7 @@
 char *ft_strcpy(char *dest, char *src);
 
 char *ft_strcpy(char *dest, char *src) {
-    int size = 0; 
-    for (int i = 0; src[i] != '\0'; i++) {
-        size++; 
-    }
-    for(int i = 0; i < size; i++) {
+    for(int i = 0; src[i] != '\0'; i++) {
         dest[i] = src[i]; 
     }
         return dest; 
