@@ -3,6 +3,7 @@
     "ex06.C": "cpp",
     "array": "c",
     "initializer_list": "c",
-    "utility": "c"
+    "utility": "c",
+    "ex04.C": "cpp"
   }
 }

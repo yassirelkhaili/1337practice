@@ -21,3 +21,4 @@ int main(int argc, char const *argv[])
     printf("%i", ft_str_is_numeric(string)); 
     return 0;
 }
+
