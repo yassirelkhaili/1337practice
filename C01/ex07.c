@@ -26,6 +26,5 @@ int main(int argc, char const *argv[])
     int size = sizeof(tab) / sizeof(int); 
     ft_sort_int_tab(tab, size); 
     return 0;
-    return 0;
 }
 

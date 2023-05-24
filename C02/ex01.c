@@ -31,4 +31,4 @@ int main(int argc, char const *argv[])
     char *result = ft_strncpy(dest, src, n); 
     write(STDOUT_FILENO, result, size); 
     return 0;
-}
+} 
