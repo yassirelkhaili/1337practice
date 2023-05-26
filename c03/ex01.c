@@ -17,7 +17,7 @@ int ft_strncmp(const char *s1, const char *s2, unsigned int n) {
 
 int main() {
     unsigned int n = 8;
-    const char s1[] = "azeruT";
+    const char s1[] = "azeru";
     const char s2[] = "azeruT";
     printf("%i", ft_strncmp(s1, s2, n));
 
