@@ -3,8 +3,8 @@
 int ft_strcmp(char *s1, char *s2);
 
 int ft_strcmp(char *s1, char *s2) {
-int size_s1 = 0; 
-int size_s2 = 0; 
+unsigned int size_s1 = 0; 
+unsigned int size_s2 = 0; 
 while(s1[size_s1] != '\0') {
     size_s1++; 
 }
@@ -16,7 +16,7 @@ if (size_s1 < size_s2) {
 } else if (size_s1 > size_s2){
     return 1; 
 }
-for(int i = 0; i < size_s1; i++) {
+for(unsigned int i = 0; i < size_s1; i++) {
     if (s1[i] != s2[i] ) {
         if(s1[i] < s2[i]) {
             return -1; 
