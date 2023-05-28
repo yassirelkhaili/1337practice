@@ -5,13 +5,13 @@ int ft_array(char* dest, char* src);
 int ft_array(char* dest, char* src) {
 char *ptr1 = dest;
 unsigned int destlen = 0; 
-while(*ptr1 != '\0')  {
+while(*ptr1)  {
     ptr1++; 
     destlen++; 
 } 
 char *ptr2 = src;
 unsigned int srclen = 0; 
-while(*ptr2 != '\0')  {
+while(*ptr2)  {
     ptr2++; 
     srclen++; 
 } 
